@@ -133,4 +133,4 @@ function CarRecommendations({ data }) {
   );
 }
 
-export default CarRecommendations() ;
+export default CarRecommendations;
