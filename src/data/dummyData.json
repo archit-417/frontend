@@ -1,0 +1,79 @@
+{
+    "carRecommendations": {
+      "query": "Show me SUVs under $30,000",
+      "criteria": {
+        "type": "suv",
+        "maxPrice": 30000,
+        "features": ["safety"]
+      },
+      "cars": [
+        {
+          "make": "Honda", 
+          "model": "CR-V", 
+          "year": 2023, 
+          "price": 29000, 
+          "type": "suv", 
+          "mpg": 28, 
+          "features": ["AWD", "backup camera", "leather seats", "sunroof"]
+        },
+        {
+          "make": "Subaru", 
+          "model": "Outback", 
+          "year": 2023, 
+          "price": 28000, 
+          "type": "suv", 
+          "mpg": 29, 
+          "features": ["AWD", "safety features", "roof rails", "off-road capability"]
+        },
+        {
+          "make": "Hyundai", 
+          "model": "Tucson", 
+          "year": 2023, 
+          "price": 27000, 
+          "type": "suv", 
+          "mpg": 26, 
+          "features": ["warranty", "safety features", "panoramic sunroof", "smart cruise control"]
+        },
+        {
+          "make": "Mazda", 
+          "model": "CX-5", 
+          "year": 2023, 
+          "price": 29000, 
+          "type": "suv", 
+          "mpg": 28, 
+          "features": ["premium feel", "leather seats", "safety features", "Bose audio"]
+        }
+      ]
+    },
+    "maintenanceInfo": {
+      "queries": {
+        "oil": {
+          "query": "When should I change my oil?",
+          "answer": "For most modern vehicles, you should change your engine oil every 7,500 to 10,000 miles or every 6-12 months, whichever comes first. Older vehicles may require more frequent changes. Always refer to your vehicle's owner manual for the manufacturer's recommendation.",
+          "relatedTopics": [
+            "Transmission Fluid",
+            "Air Filter",
+            "Coolant Flush"
+          ]
+        },
+        "tires": {
+          "query": "How often should I rotate my tires?",
+          "answer": "Tire rotation is typically recommended every 5,000 to 8,000 miles. Regular rotation helps ensure even tire wear and extends the life of your tires. Many mechanics suggest rotating tires during every other oil change.",
+          "relatedTopics": [
+            "Tire Pressure",
+            "Wheel Alignment",
+            "Tire Replacement Signs"
+          ]
+        },
+        "brakes": {
+          "query": "When to replace brake pads?",
+          "answer": "Brake pads typically need replacement every 30,000 to 70,000 miles, depending on driving habits and conditions. Signs that brake pads need replacing include squealing or grinding noises when braking, reduced braking performance, or if the brake pad thickness is less than 1/4 inch.",
+          "relatedTopics": [
+            "Brake Fluid Flush",
+            "Brake Rotors",
+            "Brake System Inspection"
+          ]
+        }
+      }
+    }
+  }
