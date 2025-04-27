@@ -5,7 +5,7 @@ import AttachMoneyIcon from '@mui/icons-material/AttachMoney';
 import SpeedIcon from '@mui/icons-material/Speed';
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 
-function CarRecommendations({ data }) {
+export default function CarRecommendations({ data }) {
   const { query, criteria, cars } = data;
 
   const formatCurrency = (value) => {
@@ -132,5 +132,3 @@ function CarRecommendations({ data }) {
     </Box>
   );
 }
-
-export default CarRecommendations() ;
